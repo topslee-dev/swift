@@ -1,0 +1,2052 @@
+[
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":20",
+    "field_name": "Transaction Reference Number",
+    "description": "각 은행에서 생성되는 고유 참조 번호",
+    "text": "MTMT103 Single Customer Credit Transfer Field :20 Transaction Reference Number: 각 은행에서 생성되는 고유 참조 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":23B",
+    "field_name": "Bank Operation Code",
+    "description": "작업 유형 지정 (CRED/SPAY/SSTD/SPRI)",
+    "text": "MTMT103 Single Customer Credit Transfer Field :23B Bank Operation Code: 작업 유형 지정 (CRED/SPAY/SSTD/SPRI)",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Interbank Settled",
+    "description": "결제일/통화/은행간 정산 금액",
+    "text": "MTMT103 Single Customer Credit Transfer Field :32A Value Date / Currency / Interbank Settled: 결제일/통화/은행간 정산 금액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":33B",
+    "field_name": "Currency / Original Ordered Amount",
+    "description": "원래 주문 금액 (통화 변환 시)",
+    "text": "MTMT103 Single Customer Credit Transfer Field :33B Currency / Original Ordered Amount: 원래 주문 금액 (통화 변환 시)",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":50K",
+    "field_name": "Ordering Customer",
+    "description": "주문 고객 (송금인) 정보",
+    "text": "MTMT103 Single Customer Credit Transfer Field :50K Ordering Customer: 주문 고객 (송금인) 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관 (송금인 은행)",
+    "text": "MTMT103 Single Customer Credit Transfer Field :52A Ordering Institution: 주문 기관 (송금인 은행)",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인의 대리은행",
+    "text": "MTMT103 Single Customer Credit Transfer Field :53A Sender's Correspondent: 송금인의 대리은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":54A",
+    "field_name": "Receiver's Correspondent",
+    "description": "수신자의 대리은행",
+    "text": "MTMT103 Single Customer Credit Transfer Field :54A Receiver's Correspondent: 수신자의 대리은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":56A",
+    "field_name": "Intermediary",
+    "description": "중개 은행",
+    "text": "MTMT103 Single Customer Credit Transfer Field :56A Intermediary: 중개 은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "수혜자 은행 정보",
+    "text": "MTMT103 Single Customer Credit Transfer Field :57A Account with Institution: 수혜자 은행 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자 정보",
+    "text": "MTMT103 Single Customer Credit Transfer Field :59 Beneficiary: 수혜자 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":70",
+    "field_name": "Remittance Information",
+    "description": "송금 정보",
+    "text": "MTMT103 Single Customer Credit Transfer Field :70 Remittance Information: 송금 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":71A",
+    "field_name": "Details of Charges",
+    "description": "수수료 부담 방식 (BEN/OUR/SHA)",
+    "text": "MTMT103 Single Customer Credit Transfer Field :71A Details of Charges: 수수료 부담 방식 (BEN/OUR/SHA)",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":72",
+    "field_name": "Sender to Receiver Information",
+    "description": "송금人对수신은행 정보",
+    "text": "MTMT103 Single Customer Credit Transfer Field :72 Sender to Receiver Information: 송금人对수신은행 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT103",
+    "category": "1",
+    "name": "Single Customer Credit Transfer",
+    "field": ":77B",
+    "field_name": "Regulatory Reporting",
+    "description": "규제 보고",
+    "text": "MTMT103 Single Customer Credit Transfer Field :77B Regulatory Reporting: 규제 보고",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조 번호",
+    "text": "MTMT202 Financial Institution Transfer Field :20 Transaction Reference: 트랜잭션 참조 번호",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조 번호",
+    "text": "MTMT202 Financial Institution Transfer Field :21 Related Reference: 관련 참조 번호",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT202 Financial Institution Transfer Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT202 Financial Institution Transfer Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT202 Financial Institution Transfer Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":54A",
+    "field_name": "Receiver's Correspondent",
+    "description": "수신자 대리인",
+    "text": "MTMT202 Financial Institution Transfer Field :54A Receiver's Correspondent: 수신자 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT202 Financial Institution Transfer Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202",
+    "category": "2",
+    "name": "Financial Institution Transfer",
+    "field": ":72",
+    "field_name": "Sender to Receiver Information",
+    "description": "송금人对수신자 정보",
+    "text": "MTMT202 Financial Institution Transfer Field :72 Sender to Receiver Information: 송금人对수신자 정보",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :21 Related Reference: 관련 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":54A",
+    "field_name": "Receiver's Correspondent",
+    "description": "수신자 대리인",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :54A Receiver's Correspondent: 수신자 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT202COV",
+    "category": "2",
+    "name": "Financial Institution Transfer - Cover",
+    "field": ":72",
+    "field_name": "Sender to Receiver Information",
+    "description": "정보",
+    "text": "MTMT202COV Financial Institution Transfer - Cover Field :72 Sender to Receiver Information: 정보",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":20",
+    "field_name": "Transaction Reference Number",
+    "description": "트랜잭션 참조 번호",
+    "text": "MTMT101 Request for Transfer Field :20 Transaction Reference Number: 트랜잭션 참조 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":23",
+    "field_name": "Bank Operation Code",
+    "description": "은행 작업 코드",
+    "text": "MTMT101 Request for Transfer Field :23 Bank Operation Code: 은행 작업 코드",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT101 Request for Transfer Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":50K",
+    "field_name": "Ordering Customer",
+    "description": "주문 고객",
+    "text": "MTMT101 Request for Transfer Field :50K Ordering Customer: 주문 고객",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT101 Request for Transfer Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT101 Request for Transfer Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT101 Request for Transfer Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자",
+    "text": "MTMT101 Request for Transfer Field :59 Beneficiary: 수혜자",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":70",
+    "field_name": "Remittance Information",
+    "description": "송금 정보",
+    "text": "MTMT101 Request for Transfer Field :70 Remittance Information: 송금 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT101",
+    "category": "1",
+    "name": "Request for Transfer",
+    "field": ":71A",
+    "field_name": "Details of Charges",
+    "description": "수수료 상세",
+    "text": "MTMT101 Request for Transfer Field :71A Details of Charges: 수수료 상세",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":20",
+    "field_name": "Transaction Reference Number",
+    "description": "트랜잭션 참조 번호",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :20 Transaction Reference Number: 트랜잭션 참조 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":21",
+    "field_name": "Payment Relation Number",
+    "description": "결제 관계 번호",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :21 Payment Relation Number: 결제 관계 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/총액",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :32A Value Date / Currency / Amount: 결제일/통화/총액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":50K",
+    "field_name": "Ordering Customer",
+    "description": "주문 고객",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :50K Ordering Customer: 주문 고객",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT102 Multiple Customer Credit Transfer Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":20",
+    "field_name": "Transaction Reference Number",
+    "description": "트랜잭션 참조 번호",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :20 Transaction Reference Number: 트랜잭션 참조 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":21",
+    "field_name": "Payment Relation Number",
+    "description": "결제 관계 번호",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :21 Payment Relation Number: 결제 관계 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/총액",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :32A Value Date / Currency / Amount: 결제일/통화/총액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":50K",
+    "field_name": "Ordering Customer",
+    "description": "주문 고객",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :50K Ordering Customer: 주문 고객",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT102Plus",
+    "category": "1",
+    "name": "Multiple Customer Credit Transfer Plus",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT102Plus Multiple Customer Credit Transfer Plus Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT107 Cash Payment Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT107 Cash Payment Field :21 Related Reference: 관련 참조",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT107 Cash Payment Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":50K",
+    "field_name": "Ordering Customer",
+    "description": "주문 고객",
+    "text": "MTMT107 Cash Payment Field :50K Ordering Customer: 주문 고객",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT107 Cash Payment Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT107 Cash Payment Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT107 Cash Payment Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":59",
+    "field_name": "Beneficiary Customer",
+    "description": "수혜 고객",
+    "text": "MTMT107 Cash Payment Field :59 Beneficiary Customer: 수혜 고객",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT107",
+    "category": "1",
+    "name": "Cash Payment",
+    "field": ":70",
+    "field_name": "Remittance Information",
+    "description": "송금 정보",
+    "text": "MTMT107 Cash Payment Field :70 Remittance Information: 송금 정보",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT110 Cheque Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":21",
+    "field_name": "Cheque Number",
+    "description": "수표 번호",
+    "text": "MTMT110 Cheque Field :21 Cheque Number: 수표 번호",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT110 Cheque Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":50K",
+    "field_name": "Drawer",
+    "description": "발행인",
+    "text": "MTMT110 Cheque Field :50K Drawer: 발행인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":52A",
+    "field_name": "Drawee Bank",
+    "description": "지급 은행",
+    "text": "MTMT110 Cheque Field :52A Drawee Bank: 지급 은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":53A",
+    "field_name": "Collecting Bank",
+    "description": "수금 은행",
+    "text": "MTMT110 Cheque Field :53A Collecting Bank: 수금 은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":57A",
+    "field_name": "Payee Bank",
+    "description": "수취 은행",
+    "text": "MTMT110 Cheque Field :57A Payee Bank: 수취 은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT110",
+    "category": "1",
+    "name": "Cheque",
+    "field": ":59",
+    "field_name": "Payee",
+    "description": "수취인",
+    "text": "MTMT110 Cheque Field :59 Payee: 수취인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT111 Request for Payment Collection Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT111 Request for Payment Collection Field :21 Related Reference: 관련 참조",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT111 Request for Payment Collection Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":50K",
+    "field_name": "Drawer",
+    "description": "발행인",
+    "text": "MTMT111 Request for Payment Collection Field :50K Drawer: 발행인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":52A",
+    "field_name": "Drawee Bank",
+    "description": "지급 은행",
+    "text": "MTMT111 Request for Payment Collection Field :52A Drawee Bank: 지급 은행",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT111",
+    "category": "1",
+    "name": "Request for Payment Collection",
+    "field": ":59",
+    "field_name": "Payee",
+    "description": "수취인",
+    "text": "MTMT111 Request for Payment Collection Field :59 Payee: 수취인",
+    "category_desc": "Customer Payments and Cheques - 고객 결제 및 수표"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT205 Financial Institution Netting Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT205 Financial Institution Netting Field :21 Related Reference: 관련 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":30",
+    "field_name": "Date of netting",
+    "description": "순차 날짜",
+    "text": "MTMT205 Financial Institution Netting Field :30 Date of netting: 순차 날짜",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT205 Financial Institution Netting Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT205 Financial Institution Netting Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT205 Financial Institution Netting Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205",
+    "category": "2",
+    "name": "Financial Institution Netting",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT205 Financial Institution Netting Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :21 Related Reference: 관련 참조",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":30",
+    "field_name": "Date of netting",
+    "description": "순차 날짜",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :30 Date of netting: 순차 날짜",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":52A",
+    "field_name": "Ordering Institution",
+    "description": "주문 기관",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :52A Ordering Institution: 주문 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":53A",
+    "field_name": "Sender's Correspondent",
+    "description": "송금인 대리인",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :53A Sender's Correspondent: 송금인 대리인",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT205COV",
+    "category": "2",
+    "name": "Financial Institution Netting - Cover",
+    "field": ":57A",
+    "field_name": "Account with Institution",
+    "description": "계좌 기관",
+    "text": "MTMT205COV Financial Institution Netting - Cover Field :57A Account with Institution: 계좌 기관",
+    "category_desc": "Financial Market Infrastructure - 금융 시장 인프라"
+  },
+  {
+    "message_type": "MT298",
+    "category": "9",
+    "name": "Queue Message",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT298 Queue Message Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT298",
+    "category": "9",
+    "name": "Queue Message",
+    "field": ":95P",
+    "field_name": "Party Identification",
+    "description": "당사자 식별",
+    "text": "MTMT298 Queue Message Field :95P Party Identification: 당사자 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT298",
+    "category": "9",
+    "name": "Queue Message",
+    "field": ":34",
+    "field_name": "Priority",
+    "description": "우선순위",
+    "text": "MTMT298 Queue Message Field :34 Priority: 우선순위",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT299",
+    "category": "9",
+    "name": "Acknowledgement Message",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT299 Acknowledgement Message Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT299",
+    "category": "9",
+    "name": "Acknowledgement Message",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT299 Acknowledgement Message Field :21 Related Reference: 관련 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT299",
+    "category": "9",
+    "name": "Acknowledgement Message",
+    "field": ":25",
+    "field_name": "Account Identification",
+    "description": "계좌 식별",
+    "text": "MTMT299 Acknowledgement Message Field :25 Account Identification: 계좌 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT300 Foreign Exchange Deal Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":22A",
+    "field_name": "Type of Operation",
+    "description": "거래 유형",
+    "text": "MTMT300 Foreign Exchange Deal Field :22A Type of Operation: 거래 유형",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":22C",
+    "field_name": "Currency",
+    "description": "통화",
+    "text": "MTMT300 Foreign Exchange Deal Field :22C Currency: 통화",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":82A",
+    "field_name": "Dealer",
+    "description": "딜러",
+    "text": "MTMT300 Foreign Exchange Deal Field :82A Dealer: 딜러",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":32B",
+    "field_name": "Deal Amount",
+    "description": "거래 금액",
+    "text": "MTMT300 Foreign Exchange Deal Field :32B Deal Amount: 거래 금액",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT300",
+    "category": "3",
+    "name": "Foreign Exchange Deal",
+    "field": ":36",
+    "field_name": "Exchange Rate",
+    "description": "환율",
+    "text": "MTMT300 Foreign Exchange Deal Field :36 Exchange Rate: 환율",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT303",
+    "category": "3",
+    "name": "FX Option Confirmation",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT303 FX Option Confirmation Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT303",
+    "category": "3",
+    "name": "FX Option Confirmation",
+    "field": ":22A",
+    "field_name": "Type of Operation",
+    "description": "거래 유형",
+    "text": "MTMT303 FX Option Confirmation Field :22A Type of Operation: 거래 유형",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT303",
+    "category": "3",
+    "name": "FX Option Confirmation",
+    "field": ":22C",
+    "field_name": "Currency Pair",
+    "description": "통화쌍",
+    "text": "MTMT303 FX Option Confirmation Field :22C Currency Pair: 통화쌍",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT303",
+    "category": "3",
+    "name": "FX Option Confirmation",
+    "field": ":82A",
+    "field_name": "Dealer",
+    "description": "딜러",
+    "text": "MTMT303 FX Option Confirmation Field :82A Dealer: 딜러",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT303",
+    "category": "3",
+    "name": "FX Option Confirmation",
+    "field": ":32B",
+    "field_name": "Deal Amount",
+    "description": "거래 금액",
+    "text": "MTMT303 FX Option Confirmation Field :32B Deal Amount: 거래 금액",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT320 Fixed Loan Contract Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT320 Fixed Loan Contract Field :21 Related Reference: 관련 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":22A",
+    "field_name": "Type of Operation",
+    "description": "거래 유형",
+    "text": "MTMT320 Fixed Loan Contract Field :22A Type of Operation: 거래 유형",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":32B",
+    "field_name": "Principal Amount",
+    "description": "원금",
+    "text": "MTMT320 Fixed Loan Contract Field :32B Principal Amount: 원금",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":30",
+    "field_name": "Date of Settlement",
+    "description": "결제일",
+    "text": "MTMT320 Fixed Loan Contract Field :30 Date of Settlement: 결제일",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT320",
+    "category": "3",
+    "name": "Fixed Loan Contract",
+    "field": ":52A",
+    "field_name": "Borrower",
+    "description": "차입자",
+    "text": "MTMT320 Fixed Loan Contract Field :52A Borrower: 차입자",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT330 Call Money Notice Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT330 Call Money Notice Field :21 Related Reference: 관련 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":32B",
+    "field_name": "Amount",
+    "description": "금액",
+    "text": "MTMT330 Call Money Notice Field :32B Amount: 금액",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":30",
+    "field_name": "Date",
+    "description": "날짜",
+    "text": "MTMT330 Call Money Notice Field :30 Date: 날짜",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":52A",
+    "field_name": "From",
+    "description": "송신",
+    "text": "MTMT330 Call Money Notice Field :52A From: 송신",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT330",
+    "category": "3",
+    "name": "Call Money Notice",
+    "field": ":53A",
+    "field_name": "To",
+    "description": "수신",
+    "text": "MTMT330 Call Money Notice Field :53A To: 수신",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT340 Short Term Deposit Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT340 Short Term Deposit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":32B",
+    "field_name": "Amount",
+    "description": "금액",
+    "text": "MTMT340 Short Term Deposit Field :32B Amount: 금액",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":30",
+    "field_name": "Date",
+    "description": "날짜",
+    "text": "MTMT340 Short Term Deposit Field :30 Date: 날짜",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":52A",
+    "field_name": "From",
+    "description": "송신",
+    "text": "MTMT340 Short Term Deposit Field :52A From: 송신",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT340",
+    "category": "3",
+    "name": "Short Term Deposit",
+    "field": ":53A",
+    "field_name": "To",
+    "description": "수신",
+    "text": "MTMT340 Short Term Deposit Field :53A To: 수신",
+    "category_desc": "Treasury Markets - 국고 시장"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT400 Cheque / Payment Order Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":21",
+    "field_name": "Cheque Number",
+    "description": "수표 번호",
+    "text": "MTMT400 Cheque / Payment Order Field :21 Cheque Number: 수표 번호",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT400 Cheque / Payment Order Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":50K",
+    "field_name": "Drawer",
+    "description": "발행인",
+    "text": "MTMT400 Cheque / Payment Order Field :50K Drawer: 발행인",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":52A",
+    "field_name": "Drawee Bank",
+    "description": "지급 은행",
+    "text": "MTMT400 Cheque / Payment Order Field :52A Drawee Bank: 지급 은행",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT400",
+    "category": "4",
+    "name": "Cheque / Payment Order",
+    "field": ":53A",
+    "field_name": "Collecting Bank",
+    "description": "수금 은행",
+    "text": "MTMT400 Cheque / Payment Order Field :53A Collecting Bank: 수금 은행",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT410",
+    "category": "4",
+    "name": "Notice of Attachment",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT410 Notice of Attachment Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT410",
+    "category": "4",
+    "name": "Notice of Attachment",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT410 Notice of Attachment Field :21 Related Reference: 관련 참조",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT410",
+    "category": "4",
+    "name": "Notice of Attachment",
+    "field": ":32A",
+    "field_name": "Amount",
+    "description": "금액",
+    "text": "MTMT410 Notice of Attachment Field :32A Amount: 금액",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT410",
+    "category": "4",
+    "name": "Notice of Attachment",
+    "field": ":52A",
+    "field_name": "Creditor",
+    "description": "채권자",
+    "text": "MTMT410 Notice of Attachment Field :52A Creditor: 채권자",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT410",
+    "category": "4",
+    "name": "Notice of Attachment",
+    "field": ":53A",
+    "field_name": "Debtor",
+    "description": "채무자",
+    "text": "MTMT410 Notice of Attachment Field :53A Debtor: 채무자",
+    "category_desc": "Cash Management - 현금 관리"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT506 Securities Settlement Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":22C",
+    "field_name": "Transaction Type",
+    "description": "거래 유형",
+    "text": "MTMT506 Securities Settlement Field :22C Transaction Type: 거래 유형",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":35B",
+    "field_name": "Identification of Financial Instrument",
+    "description": "금융상품 식별",
+    "text": "MTMT506 Securities Settlement Field :35B Identification of Financial Instrument: 금융상품 식별",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":36",
+    "field_name": "Quantity",
+    "description": "수량",
+    "text": "MTMT506 Securities Settlement Field :36 Quantity: 수량",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":32B",
+    "field_name": "Amount",
+    "description": "금액",
+    "text": "MTMT506 Securities Settlement Field :32B Amount: 금액",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT506",
+    "category": "5",
+    "name": "Securities Settlement",
+    "field": ":53A",
+    "field_name": "Settlement Party",
+    "description": "정산 당사자",
+    "text": "MTMT506 Securities Settlement Field :53A Settlement Party: 정산 당사자",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT509",
+    "category": "5",
+    "name": "Securities Settlement Confirmation",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT509 Securities Settlement Confirmation Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT509",
+    "category": "5",
+    "name": "Securities Settlement Confirmation",
+    "field": ":22C",
+    "field_name": "Transaction Type",
+    "description": "거래 유형",
+    "text": "MTMT509 Securities Settlement Confirmation Field :22C Transaction Type: 거래 유형",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT509",
+    "category": "5",
+    "name": "Securities Settlement Confirmation",
+    "field": ":35B",
+    "field_name": "Identification of Financial Instrument",
+    "description": "금융상품 식별",
+    "text": "MTMT509 Securities Settlement Confirmation Field :35B Identification of Financial Instrument: 금융상품 식별",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT509",
+    "category": "5",
+    "name": "Securities Settlement Confirmation",
+    "field": ":36",
+    "field_name": "Quantity",
+    "description": "수량",
+    "text": "MTMT509 Securities Settlement Confirmation Field :36 Quantity: 수량",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT509",
+    "category": "5",
+    "name": "Securities Settlement Confirmation",
+    "field": ":32B",
+    "field_name": "Amount",
+    "description": "금액",
+    "text": "MTMT509 Securities Settlement Confirmation Field :32B Amount: 금액",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT515",
+    "category": "5",
+    "name": "Corporate Action",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT515 Corporate Action Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT515",
+    "category": "5",
+    "name": "Corporate Action",
+    "field": ":22C",
+    "field_name": "Corporate Action Type",
+    "description": "기업 행위 유형",
+    "text": "MTMT515 Corporate Action Field :22C Corporate Action Type: 기업 행위 유형",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT515",
+    "category": "5",
+    "name": "Corporate Action",
+    "field": ":35B",
+    "field_name": "Identification of Financial Instrument",
+    "description": "금융상품 식별",
+    "text": "MTMT515 Corporate Action Field :35B Identification of Financial Instrument: 금융상품 식별",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT515",
+    "category": "5",
+    "name": "Corporate Action",
+    "field": ":16R",
+    "field_name": "Corporate Action Details",
+    "description": "기업 행위 상세",
+    "text": "MTMT515 Corporate Action Field :16R Corporate Action Details: 기업 행위 상세",
+    "category_desc": "Securities Markets - 증권 시장"
+  },
+  {
+    "message_type": "MT600",
+    "category": "6",
+    "name": "Trade Services",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT600 Trade Services Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Trade Services - 무역 서비스"
+  },
+  {
+    "message_type": "MT600",
+    "category": "6",
+    "name": "Trade Services",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT600 Trade Services Field :21 Related Reference: 관련 참조",
+    "category_desc": "Trade Services - 무역 서비스"
+  },
+  {
+    "message_type": "MT600",
+    "category": "6",
+    "name": "Trade Services",
+    "field": ":22C",
+    "field_name": "Type of Trade Service",
+    "description": "무역 서비스 유형",
+    "text": "MTMT600 Trade Services Field :22C Type of Trade Service: 무역 서비스 유형",
+    "category_desc": "Trade Services - 무역 서비스"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":20",
+    "field_name": "Documentary Credit Number",
+    "description": "신용장 번호",
+    "text": "MTMT700 Issue of Documentary Credit Field :20 Documentary Credit Number: 신용장 번호",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT700 Issue of Documentary Credit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":23",
+    "field_name": "Bank Reference",
+    "description": "은행 참조",
+    "text": "MTMT700 Issue of Documentary Credit Field :23 Bank Reference: 은행 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":31D",
+    "field_name": "Date and Place of Expiry",
+    "description": "만기일/장소",
+    "text": "MTMT700 Issue of Documentary Credit Field :31D Date and Place of Expiry: 만기일/장소",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":51A",
+    "field_name": "Applicant Bank",
+    "description": "개설 은행",
+    "text": "MTMT700 Issue of Documentary Credit Field :51A Applicant Bank: 개설 은행",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":50",
+    "field_name": "Applicant",
+    "description": "申请人",
+    "text": "MTMT700 Issue of Documentary Credit Field :50 Applicant: 申请人",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":52A",
+    "field_name": "Issuing Bank",
+    "description": "발행 은행",
+    "text": "MTMT700 Issue of Documentary Credit Field :52A Issuing Bank: 발행 은행",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자",
+    "text": "MTMT700 Issue of Documentary Credit Field :59 Beneficiary: 수혜자",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":32B",
+    "field_name": "Documentary Credit Amount",
+    "description": "신용장 금액",
+    "text": "MTMT700 Issue of Documentary Credit Field :32B Documentary Credit Amount: 신용장 금액",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT700",
+    "category": "7",
+    "name": "Issue of Documentary Credit",
+    "field": ":41",
+    "field_name": "Available With",
+    "description": "사용 가능",
+    "text": "MTMT700 Issue of Documentary Credit Field :41 Available With: 사용 가능",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":20",
+    "field_name": "Documentary Credit Number",
+    "description": "신용장 번호",
+    "text": "MTMT707 Amendment of Documentary Credit Field :20 Documentary Credit Number: 신용장 번호",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT707 Amendment of Documentary Credit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":23",
+    "field_name": "Bank Reference",
+    "description": "은행 참조",
+    "text": "MTMT707 Amendment of Documentary Credit Field :23 Bank Reference: 은행 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":31D",
+    "field_name": "New Date of Expiry",
+    "description": "새 만기일",
+    "text": "MTMT707 Amendment of Documentary Credit Field :31D New Date of Expiry: 새 만기일",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":52A",
+    "field_name": "Issuing Bank",
+    "description": "발행 은행",
+    "text": "MTMT707 Amendment of Documentary Credit Field :52A Issuing Bank: 발행 은행",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT707",
+    "category": "7",
+    "name": "Amendment of Documentary Credit",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자",
+    "text": "MTMT707 Amendment of Documentary Credit Field :59 Beneficiary: 수혜자",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT710",
+    "category": "7",
+    "name": "Advice of Documentary Credit",
+    "field": ":20",
+    "field_name": "Documentary Credit Number",
+    "description": "신용장 번호",
+    "text": "MTMT710 Advice of Documentary Credit Field :20 Documentary Credit Number: 신용장 번호",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT710",
+    "category": "7",
+    "name": "Advice of Documentary Credit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT710 Advice of Documentary Credit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT710",
+    "category": "7",
+    "name": "Advice of Documentary Credit",
+    "field": ":52A",
+    "field_name": "Issuing Bank",
+    "description": "발행 은행",
+    "text": "MTMT710 Advice of Documentary Credit Field :52A Issuing Bank: 발행 은행",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT710",
+    "category": "7",
+    "name": "Advice of Documentary Credit",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자",
+    "text": "MTMT710 Advice of Documentary Credit Field :59 Beneficiary: 수혜자",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT710",
+    "category": "7",
+    "name": "Advice of Documentary Credit",
+    "field": ":32B",
+    "field_name": "Documentary Credit Amount",
+    "description": "신용장 금액",
+    "text": "MTMT710 Advice of Documentary Credit Field :32B Documentary Credit Amount: 신용장 금액",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT720",
+    "category": "7",
+    "name": "Transfer of Documentary Credit",
+    "field": ":20",
+    "field_name": "Documentary Credit Number",
+    "description": "신용장 번호",
+    "text": "MTMT720 Transfer of Documentary Credit Field :20 Documentary Credit Number: 신용장 번호",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT720",
+    "category": "7",
+    "name": "Transfer of Documentary Credit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT720 Transfer of Documentary Credit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT720",
+    "category": "7",
+    "name": "Transfer of Documentary Credit",
+    "field": ":52A",
+    "field_name": "Transferring Bank",
+    "description": "양도 은행",
+    "text": "MTMT720 Transfer of Documentary Credit Field :52A Transferring Bank: 양도 은행",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT720",
+    "category": "7",
+    "name": "Transfer of Documentary Credit",
+    "field": ":59",
+    "field_name": "Second Beneficiary",
+    "description": "제2수혜자",
+    "text": "MTMT720 Transfer of Documentary Credit Field :59 Second Beneficiary: 제2수혜자",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":20",
+    "field_name": "Guarantee Number",
+    "description": "보증서 번호",
+    "text": "MTMT760 Guarantee Field :20 Guarantee Number: 보증서 번호",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT760 Guarantee Field :21 Related Reference: 관련 참조",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":22A",
+    "field_name": "Type of Guarantee",
+    "description": "보증 유형",
+    "text": "MTMT760 Guarantee Field :22A Type of Guarantee: 보증 유형",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":50",
+    "field_name": "Applicant",
+    "description": "申请人",
+    "text": "MTMT760 Guarantee Field :50 Applicant: 申请人",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":59",
+    "field_name": "Beneficiary",
+    "description": "수혜자",
+    "text": "MTMT760 Guarantee Field :59 Beneficiary: 수혜자",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT760",
+    "category": "7",
+    "name": "Guarantee",
+    "field": ":32B",
+    "field_name": "Guarantee Amount",
+    "description": "보증 금액",
+    "text": "MTMT760 Guarantee Field :32B Guarantee Amount: 보증 금액",
+    "category_desc": "Documentary Credits - Documentary 신용장"
+  },
+  {
+    "message_type": "MT900",
+    "category": "9",
+    "name": "Confirmation of Debit",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT900 Confirmation of Debit Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT900",
+    "category": "9",
+    "name": "Confirmation of Debit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT900 Confirmation of Debit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT900",
+    "category": "9",
+    "name": "Confirmation of Debit",
+    "field": ":25",
+    "field_name": "Account Identification",
+    "description": "계좌 식별",
+    "text": "MTMT900 Confirmation of Debit Field :25 Account Identification: 계좌 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT900",
+    "category": "9",
+    "name": "Confirmation of Debit",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT900 Confirmation of Debit Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT910",
+    "category": "9",
+    "name": "Confirmation of Credit",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT910 Confirmation of Credit Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT910",
+    "category": "9",
+    "name": "Confirmation of Credit",
+    "field": ":21",
+    "field_name": "Related Reference",
+    "description": "관련 참조",
+    "text": "MTMT910 Confirmation of Credit Field :21 Related Reference: 관련 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT910",
+    "category": "9",
+    "name": "Confirmation of Credit",
+    "field": ":25",
+    "field_name": "Account Identification",
+    "description": "계좌 식별",
+    "text": "MTMT910 Confirmation of Credit Field :25 Account Identification: 계좌 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT910",
+    "category": "9",
+    "name": "Confirmation of Credit",
+    "field": ":32A",
+    "field_name": "Value Date / Currency / Amount",
+    "description": "결제일/통화/금액",
+    "text": "MTMT910 Confirmation of Credit Field :32A Value Date / Currency / Amount: 결제일/통화/금액",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT940 Customer Statement Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":25",
+    "field_name": "Account Identification",
+    "description": "계좌 식별",
+    "text": "MTMT940 Customer Statement Field :25 Account Identification: 계좌 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":28C",
+    "field_name": "Statement Number",
+    "description": "명세서 번호",
+    "text": "MTMT940 Customer Statement Field :28C Statement Number: 명세서 번호",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":31D",
+    "field_name": "Statement Date",
+    "description": "명세서 날짜",
+    "text": "MTMT940 Customer Statement Field :31D Statement Date: 명세서 날짜",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":60",
+    "field_name": "Opening Balance",
+    "description": "시작 잔액",
+    "text": "MTMT940 Customer Statement Field :60 Opening Balance: 시작 잔액",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":61",
+    "field_name": "Statement Line",
+    "description": "명세서 라인",
+    "text": "MTMT940 Customer Statement Field :61 Statement Line: 명세서 라인",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT940",
+    "category": "9",
+    "name": "Customer Statement",
+    "field": ":62",
+    "field_name": "Closing Balance",
+    "description": "종료 잔액",
+    "text": "MTMT940 Customer Statement Field :62 Closing Balance: 종료 잔액",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT950",
+    "category": "9",
+    "name": "Customer Statement Message",
+    "field": ":20",
+    "field_name": "Transaction Reference",
+    "description": "트랜잭션 참조",
+    "text": "MTMT950 Customer Statement Message Field :20 Transaction Reference: 트랜잭션 참조",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT950",
+    "category": "9",
+    "name": "Customer Statement Message",
+    "field": ":25",
+    "field_name": "Account Identification",
+    "description": "계좌 식별",
+    "text": "MTMT950 Customer Statement Message Field :25 Account Identification: 계좌 식별",
+    "category_desc": "Generic Messages - 일반 메시지"
+  },
+  {
+    "message_type": "MT950",
+    "category": "9",
+    "name": "Customer Statement Message",
+    "field": ":28C",
+    "field_name": "Statement Number",
+    "description": "명세서 번호",
+    "text": "MTMT950 Customer Statement Message Field :28C Statement Number: 명세서 번호",
+    "category_desc": "Generic Messages - 일반 메시지"
+  }
+]
